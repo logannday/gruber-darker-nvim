@@ -8,7 +8,7 @@ A Neovim port of the Gruber Darker color theme, originally created for Emacs by 
 
 ```lua
 {
-  "your-username/gruber-darker.nvim",
+  "logannday/gruber-darker.nvim",
   lazy = false,
   priority = 1000,
   config = function()
@@ -21,7 +21,7 @@ A Neovim port of the Gruber Darker color theme, originally created for Emacs by 
 
 ```lua
 use {
-  "your-username/gruber-darker.nvim",
+  "logannday/gruber-darker.nvim",
   config = function()
     vim.cmd([[colorscheme gruber-darker]])
   end
@@ -31,7 +31,7 @@ use {
 ### Using [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug 'your-username/gruber-darker.nvim'
+Plug 'logannday/gruber-darker.nvim'
 colorscheme gruber-darker
 ```
 
